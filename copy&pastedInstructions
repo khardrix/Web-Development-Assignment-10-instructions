@@ -1,0 +1,53 @@
+INF 286			Assignment #10		Instructor Dr. Seth Adjei
+Last Name: 			First Name:
+
+Grade: 
+Comment:
+
+Coding questions. The following question needs your complete HTML code. (100% each)
+Problem 1: Using JavaScript, create a simple web page that will take orders for BDR Micro. BDR Micro sells fast, efficient, better-than-Intel chips for $110 each. Discounts are given for buying in bulk (see Table 1 and example below). 
+
+Table 1 – Discounts
+Quantity Purchased	Discount
+1 – 19	0%
+20 – 49	2%
+50 – 79	4%
+80 – 99	6%
+100 +	8%
+
+Example: If a customer purchases 40 chips, their total price (CTotal) would be:
+ 
+
+Program Requirements: Your program must be written in JavaScript, and this is an individual assignment.  In addition, you should follow the specific guidelines below.
+1.	Use the window.confirm() method to ask the user if they want to purchase chips (if the user doesn’t want to continue, display an appropriate message in the browser; otherwise, continue with the next steps). Note: the window.confirm() method returns true if the user chooses the “OK” button in the dialog window and false if the user chooses the “Cancel” button. (20%)
+2.	Use the window.prompt() method to gather user input (see point 4) (20%).
+3.	Format the HTML page so that it displays (30%):
+a.	Number of chips purchased and cost per unit,
+b.	Total cost before discount,
+c.	Amount of discount (percentage and money amount), and
+d.	Total cost after discount.
+4.	The page should also display user information. This information should include (20%):
+a.	User’s name,
+b.	User’s address,
+c.	User’s phone number, and
+d.	User’s email address.
+(See on the screenshot of a web page that displays, after gathering the user input, all the required information specified above).
+ 
+5.	In addition, your page should be formatted correctly using HTML and CSS. You must properly format your page using CSS. Your CSS should be embedded in the page (in the header). Part of your grade will be based on your effectiveness using CSS. At a minimum, you should make sure your page formatting adheres to the following guidelines:
+a.	The CSS must change at least three (3) default properties in the page. Examples include default font, page background, and text color (5%).
+b.	Properly format your HTML. You can use either CSS or table tags.  Please refer to the relevant chapters and lecture notes for all salient information regarding CSS page layout techniques and table layout techniques. (5%)
+
+Hints: You may find the following hints useful when completing this assignment.
+•	Create the plain HTML page first. After that is completed, add the JavaScript and then (finally) the CSS. This will make debugging your JavaScript code much easier.
+•	Notice that error-checking is not required. You can feel free to include some error-checking (in the JavaScript) if you wish.
+•	When coding the JavaScript, code portions at a time. For example, you may wish to take care of displaying just the number of chips ordered and the cost (before discount), verify that it works correctly, and then continue coding the JavaScript.
+
+References and Guides: Additional references that may be useful for coding with JavaScript.
+•	W3 Schools JavaScript Reference: http://www.w3schools.com/jsref/default.asp
+•	W3 Schools JavaScript Tutorial: http://www.w3schools.com/js/default.asp
+•	DevGuru JavaScript Index: http://www.devguru.com/technologies/ecmascript/QuickRef/javascript_index.html
+•	Sun Client-Side JavaScript Reference: http://docs.sun.com/source/816-6408-10/
+
+Submission Requirements:
+You MUST compress your files as one file named as YourLastName_YourFirstName_Assignment10.zip and submit it to Canvas. If you submit it as html file, the file will be automatically modified by Canvas and will not be opened by the browser (all its tags with <script> or <form> will be replaced with <XXXX >). 
+
